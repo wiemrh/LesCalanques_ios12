@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0194578322286A2100510106 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194578222286A2100510106 /* AppDelegate.swift */; };
+		0194578A22286A2100510106 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194578822286A2100510106 /* Main.storyboard */; };
+		0194578C22286A2200510106 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0194578B22286A2200510106 /* Assets.xcassets */; };
+		0194578F22286A2200510106 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0194578D22286A2200510106 /* LaunchScreen.storyboard */; };
+		0194579A22286A2300510106 /* CalanquesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0194579922286A2300510106 /* CalanquesTests.swift */; };
+		019457A522286A2300510106 /* CalanquesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457A422286A2300510106 /* CalanquesUITests.swift */; };
+		019457B822286E1C00510106 /* TableIntegreVoiewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457B522286E1C00510106 /* TableIntegreVoiewController.swift */; };
+		019457B922286E1C00510106 /* ControllerAvecTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457B622286E1C00510106 /* ControllerAvecTableView.swift */; };
+		019457BA22286E1C00510106 /* ControllerAvecCarte.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457B722286E1C00510106 /* ControllerAvecCarte.swift */; };
+		019457BD22286E2E00510106 /* calanque.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457BB22286E2E00510106 /* calanque.swift */; };
+		019457BE22286E2E00510106 /* CalnquesCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457BC22286E2E00510106 /* CalnquesCollection.swift */; };
+		019457C122286E3F00510106 /* CalanqueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457BF22286E3F00510106 /* CalanqueCell.swift */; };
+		019457C222286E3F00510106 /* ImageRonde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 019457C022286E3F00510106 /* ImageRonde.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0194579622286A2300510106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0194577722286A2100510106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0194577E22286A2100510106;
+			remoteInfo = Calanques;
+		};
+		019457A122286A2300510106 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0194577722286A2100510106 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0194577E22286A2100510106;
+			remoteInfo = Calanques;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0194577F22286A2100510106 /* Calanques.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calanques.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0194578222286A2100510106 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0194578922286A2100510106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0194578B22286A2200510106 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0194578E22286A2200510106 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0194579022286A2200510106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0194579522286A2300510106 /* CalanquesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalanquesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0194579922286A2300510106 /* CalanquesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanquesTests.swift; sourceTree = "<group>"; };
+		0194579B22286A2300510106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019457A022286A2300510106 /* CalanquesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalanquesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		019457A422286A2300510106 /* CalanquesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalanquesUITests.swift; sourceTree = "<group>"; };
+		019457A622286A2300510106 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		019457B522286E1C00510106 /* TableIntegreVoiewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableIntegreVoiewController.swift; path = "../../../calanques_ios12-master/Les calanques/Controller/TableIntegreVoiewController.swift"; sourceTree = "<group>"; };
+		019457B622286E1C00510106 /* ControllerAvecTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerAvecTableView.swift; path = "../../../calanques_ios12-master/Les calanques/Controller/ControllerAvecTableView.swift"; sourceTree = "<group>"; };
+		019457B722286E1C00510106 /* ControllerAvecCarte.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ControllerAvecCarte.swift; path = "../../../calanques_ios12-master/Les calanques/Controller/ControllerAvecCarte.swift"; sourceTree = "<group>"; };
+		019457BB22286E2E00510106 /* calanque.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = calanque.swift; path = "../../../calanques_ios12-master/Les calanques/Model/calanque.swift"; sourceTree = "<group>"; };
+		019457BC22286E2E00510106 /* CalnquesCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalnquesCollection.swift; path = "../../../calanques_ios12-master/Les calanques/Model/CalnquesCollection.swift"; sourceTree = "<group>"; };
+		019457BF22286E3F00510106 /* CalanqueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CalanqueCell.swift; path = "../../../calanques_ios12-master/Les calanques/View/CalanqueCell.swift"; sourceTree = "<group>"; };
+		019457C022286E3F00510106 /* ImageRonde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageRonde.swift; path = "../../../calanques_ios12-master/Les calanques/View/ImageRonde.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0194577C22286A2100510106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579222286A2300510106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579D22286A2300510106 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0194577622286A2100510106 = {
+			isa = PBXGroup;
+			children = (
+				0194578122286A2100510106 /* Calanques */,
+				0194579822286A2300510106 /* CalanquesTests */,
+				019457A322286A2300510106 /* CalanquesUITests */,
+				0194578022286A2100510106 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0194578022286A2100510106 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0194577F22286A2100510106 /* Calanques.app */,
+				0194579522286A2300510106 /* CalanquesTests.xctest */,
+				019457A022286A2300510106 /* CalanquesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0194578122286A2100510106 /* Calanques */ = {
+			isa = PBXGroup;
+			children = (
+				019457B422286C9700510106 /* model */,
+				019457B322286C7D00510106 /* view */,
+				019457B222286AB200510106 /* controller */,
+				0194578222286A2100510106 /* AppDelegate.swift */,
+				0194578822286A2100510106 /* Main.storyboard */,
+				0194578B22286A2200510106 /* Assets.xcassets */,
+				0194578D22286A2200510106 /* LaunchScreen.storyboard */,
+				0194579022286A2200510106 /* Info.plist */,
+			);
+			path = Calanques;
+			sourceTree = "<group>";
+		};
+		0194579822286A2300510106 /* CalanquesTests */ = {
+			isa = PBXGroup;
+			children = (
+				0194579922286A2300510106 /* CalanquesTests.swift */,
+				0194579B22286A2300510106 /* Info.plist */,
+			);
+			path = CalanquesTests;
+			sourceTree = "<group>";
+		};
+		019457A322286A2300510106 /* CalanquesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				019457A422286A2300510106 /* CalanquesUITests.swift */,
+				019457A622286A2300510106 /* Info.plist */,
+			);
+			path = CalanquesUITests;
+			sourceTree = "<group>";
+		};
+		019457B222286AB200510106 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				019457B722286E1C00510106 /* ControllerAvecCarte.swift */,
+				019457B622286E1C00510106 /* ControllerAvecTableView.swift */,
+				019457B522286E1C00510106 /* TableIntegreVoiewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		019457B322286C7D00510106 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				019457BF22286E3F00510106 /* CalanqueCell.swift */,
+				019457C022286E3F00510106 /* ImageRonde.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		019457B422286C9700510106 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				019457BB22286E2E00510106 /* calanque.swift */,
+				019457BC22286E2E00510106 /* CalnquesCollection.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0194577E22286A2100510106 /* Calanques */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019457A922286A2300510106 /* Build configuration list for PBXNativeTarget "Calanques" */;
+			buildPhases = (
+				0194577B22286A2100510106 /* Sources */,
+				0194577C22286A2100510106 /* Frameworks */,
+				0194577D22286A2100510106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Calanques;
+			productName = Calanques;
+			productReference = 0194577F22286A2100510106 /* Calanques.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0194579422286A2300510106 /* CalanquesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019457AC22286A2300510106 /* Build configuration list for PBXNativeTarget "CalanquesTests" */;
+			buildPhases = (
+				0194579122286A2300510106 /* Sources */,
+				0194579222286A2300510106 /* Frameworks */,
+				0194579322286A2300510106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0194579722286A2300510106 /* PBXTargetDependency */,
+			);
+			name = CalanquesTests;
+			productName = CalanquesTests;
+			productReference = 0194579522286A2300510106 /* CalanquesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0194579F22286A2300510106 /* CalanquesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 019457AF22286A2300510106 /* Build configuration list for PBXNativeTarget "CalanquesUITests" */;
+			buildPhases = (
+				0194579C22286A2300510106 /* Sources */,
+				0194579D22286A2300510106 /* Frameworks */,
+				0194579E22286A2300510106 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				019457A222286A2300510106 /* PBXTargetDependency */,
+			);
+			name = CalanquesUITests;
+			productName = CalanquesUITests;
+			productReference = 019457A022286A2300510106 /* CalanquesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0194577722286A2100510106 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = wiem;
+				TargetAttributes = {
+					0194577E22286A2100510106 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					0194579422286A2300510106 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 0194577E22286A2100510106;
+					};
+					0194579F22286A2300510106 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 0194577E22286A2100510106;
+					};
+				};
+			};
+			buildConfigurationList = 0194577A22286A2100510106 /* Build configuration list for PBXProject "Calanques" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0194577622286A2100510106;
+			productRefGroup = 0194578022286A2100510106 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0194577E22286A2100510106 /* Calanques */,
+				0194579422286A2300510106 /* CalanquesTests */,
+				0194579F22286A2300510106 /* CalanquesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0194577D22286A2100510106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0194578F22286A2200510106 /* LaunchScreen.storyboard in Resources */,
+				0194578C22286A2200510106 /* Assets.xcassets in Resources */,
+				0194578A22286A2100510106 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579322286A2300510106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579E22286A2300510106 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0194577B22286A2100510106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019457BD22286E2E00510106 /* calanque.swift in Sources */,
+				019457B822286E1C00510106 /* TableIntegreVoiewController.swift in Sources */,
+				019457C122286E3F00510106 /* CalanqueCell.swift in Sources */,
+				0194578322286A2100510106 /* AppDelegate.swift in Sources */,
+				019457BA22286E1C00510106 /* ControllerAvecCarte.swift in Sources */,
+				019457B922286E1C00510106 /* ControllerAvecTableView.swift in Sources */,
+				019457C222286E3F00510106 /* ImageRonde.swift in Sources */,
+				019457BE22286E2E00510106 /* CalnquesCollection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579122286A2300510106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0194579A22286A2300510106 /* CalanquesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0194579C22286A2300510106 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				019457A522286A2300510106 /* CalanquesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0194579722286A2300510106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0194577E22286A2100510106 /* Calanques */;
+			targetProxy = 0194579622286A2300510106 /* PBXContainerItemProxy */;
+		};
+		019457A222286A2300510106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0194577E22286A2100510106 /* Calanques */;
+			targetProxy = 019457A122286A2300510106 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0194578822286A2100510106 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0194578922286A2100510106 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0194578D22286A2200510106 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0194578E22286A2200510106 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		019457A722286A2300510106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		019457A822286A2300510106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		019457AA22286A2300510106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calanques/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.Calanques;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		019457AB22286A2300510106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Calanques/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.Calanques;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		019457AD22286A2300510106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalanquesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.CalanquesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calanques.app/Calanques";
+			};
+			name = Debug;
+		};
+		019457AE22286A2300510106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalanquesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.CalanquesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calanques.app/Calanques";
+			};
+			name = Release;
+		};
+		019457B022286A2300510106 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalanquesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.CalanquesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calanques;
+			};
+			name = Debug;
+		};
+		019457B122286A2300510106 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CalanquesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wiem.CalanquesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Calanques;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0194577A22286A2100510106 /* Build configuration list for PBXProject "Calanques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019457A722286A2300510106 /* Debug */,
+				019457A822286A2300510106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019457A922286A2300510106 /* Build configuration list for PBXNativeTarget "Calanques" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019457AA22286A2300510106 /* Debug */,
+				019457AB22286A2300510106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019457AC22286A2300510106 /* Build configuration list for PBXNativeTarget "CalanquesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019457AD22286A2300510106 /* Debug */,
+				019457AE22286A2300510106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		019457AF22286A2300510106 /* Build configuration list for PBXNativeTarget "CalanquesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				019457B022286A2300510106 /* Debug */,
+				019457B122286A2300510106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0194577722286A2100510106 /* Project object */;
+}
