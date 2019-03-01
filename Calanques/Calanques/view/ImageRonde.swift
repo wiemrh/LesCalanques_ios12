@@ -2,7 +2,7 @@
 //  ImageRonde.swift
 //  Calanques
 //
-//  Created by wiem on 2/28/19.
+//  Created by wiem on 3/1/19.
 //  Copyright © 2019 wiem. All rights reserved.
 //
 
@@ -30,4 +30,3 @@ class ImageRonde: UIImageView {
         contentMode = .scaleToFill
     }
 }
-
